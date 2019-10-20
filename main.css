@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+body {
+    font-family: "Roboto", sans-serif;
+    padding: 30px;
+    background-color: rgba(40, 42, 54, 1);
+    color: rgba(0, 0, 0, 1);
+    background: url("https://i.pinimg.com/originals/4e/17/b6/4e17b6d7caefbcea123e37c6a6fa3624.jpg")
+        fixed center no-repeat;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headers {
+    width: 100%;
+    color: rgba(255, 255, 255, 1);
+}
+
+#survey-form {
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+}
